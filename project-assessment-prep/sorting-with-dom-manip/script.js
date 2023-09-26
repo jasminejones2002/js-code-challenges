@@ -1,4 +1,4 @@
-/* First create a function that will render the people array to the DOM - "{name} is {age} years old."
+/* First create a function that will render the people array to the DOM. List each person - "{name} is {age} years old."
 Check the HTML file to see what element you should be appending them to.
 Then write the code that will allow the user to click the button and
 sort the people by age in ascending order.
