@@ -7,7 +7,9 @@ CD into the project-assessment-prep directory. Then, you'll need to cd into each
 
 When pair programming, one person will take the role Navigator and the other will be the Driver. Check out this resource for more info on the roles: https://dev.to/documatic/pair-programming-best-practices-and-tools-154j
 
-Please be courteous and allow everyone in your group the chance to experience each role during the Review Session. Keep talking with your partner(s)! 
+Please be courteous and allow everyone in your group the chance to experience each role during the Review Session. Keep talking with your partner(s)!
+
+If you have already worked through a challenge please allow others the opportunity to struggle with it!
 
 Have fun!
 
