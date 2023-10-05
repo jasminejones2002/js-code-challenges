@@ -1,5 +1,5 @@
 /* When the button is clicked, use the filter method to filter the books array and create a new array named filteredBooks 
-that contains only the books in the genre that the user entered - this shuld be case insensitive.
+that contains only the books in the genre that the user entered - this should be case insensitive.
 Then, call the renderBookList function with your new array.
 */
 
@@ -23,9 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
 })
 
 function filterBooks(genre) {
-// Implement your logic here
-// Use the filter method to filter the books array
-// Return the filtered array
+
 }
 
 function renderBookList(books) {
