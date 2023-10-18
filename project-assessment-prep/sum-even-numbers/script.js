@@ -1,4 +1,6 @@
 /*
+Create a function called sumEvenNumbers that takes an array of numbers as a parameter and returns the sum of all the even numbers in the array.
+
 Your function should:
 
 1. Iterate through the given numbers array using the filter method to check if each number is even
