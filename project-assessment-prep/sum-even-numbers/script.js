@@ -9,7 +9,7 @@ Your function should:
 3. BONUS: Use the reduce method to sum the even numbers from the array
 
 */
-
+console.log("hi")
 // Test your function with an example array.
 const numbers = [2, 5, 8, 10, 3, 6];
 const result = sumEvenNumbers(numbers);
