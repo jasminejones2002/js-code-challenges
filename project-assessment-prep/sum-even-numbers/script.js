@@ -2,11 +2,11 @@
 Create a function called sumEvenNumbers that takes an array of numbers as a parameter and returns the sum of all the even numbers in the array.
 
 Your function should:
+Iterate through the given numbers array using the filter method to check if each number is even. 
+Then, sum the even numbers from the filtered array and return their sum.
+Test your function with an example array.
 
-1. Iterate through the given numbers array using the filter method to check if each number is even
-2. Then sum the even numbers from the filtered array and return their sum
-3. Test your function with an example array.
-
+Example:
 const result = sumEvenNumbers(numbers);
 console.log('Sum of even numbers:', result); --> The result should be 26.
 
