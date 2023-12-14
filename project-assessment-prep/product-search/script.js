@@ -4,7 +4,7 @@ capture the user input and use it to filter through the product names - this sho
 Then list the products on the page that pass the filter - this should be case insensitive. 
 You should allow products that contain all of the letters in order in the input to pass the filter. 
 Use a h3 tag for the product name and a p tag for the category. 
-Take a look at the HTML file to see where you should be appending your elements.
+Take a look at the HTML file to see where you should be appending your elements with product details.
 */
 
 const products = [
