@@ -1,5 +1,5 @@
 /* 
-Using the given dogs array, create a variable named "corgis" whose value is an array containing only the dogs of breed Corgi.
+Using the given dogs array, create a variable named "corgis" whose value is an array containing only the dogs of breed Corgi - use the filter method to get this done. 
 When a user clicks the button "Corgis!!",
 Use the corgis variable to add only the dogs with the breed "Corgi" to the Corgi Container - List the dogs' names in the Corgi Container
 */
