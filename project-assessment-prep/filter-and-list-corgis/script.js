@@ -10,3 +10,19 @@ const dogs = [
     { name: "Toto", breed: "Terrier" },
     { name: "Susan", breed: "Corgi" },
 ];
+
+function corgiList() {
+    const corgis = dogs.filter((dog) => 
+    dog.breed === "Corgi"
+)
+    const corgiBtn = document.getElementById("corgi-button")
+    corgiBtn.addEventListener("click", () => {
+        const corgiContainer = document.getElementById("corgi-container")
+        corgis.forEach((corgi) => {
+            const createHtml = document.createElement('p')
+            createHtml.textContent = corgi.name
+            corgiContainer.appendChild(createHtml)
+        })
+    })
+}
+corgiList()

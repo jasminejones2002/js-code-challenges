@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
 })
 
 function filterBooks(genre) {
-
+    
 }
 
 function renderBookList(books) {
