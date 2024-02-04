@@ -15,7 +15,19 @@ BONUS: Use the reduce method to sum the even numbers from the array - try this a
 
 const numbers = [2, 5, 8, 10, 3, 6];
 
-  
+function sumEvenNumbers(numbers) {
+    let sum = 0
 
+    const filterNum = numbers.filter(number => {
+        if (number % 2 == 0) {
+            sum+= number
+            return true
+        }
+        return false
+    })
+    return sum
+}
 
-
+const numbersTwo = [5, 10, 15, 20, 25, 30]
+const result = sumEvenNumbers(numbersTwo)
+console.log('Sum of even numbers: ', result)
