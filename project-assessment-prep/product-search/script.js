@@ -16,3 +16,35 @@ const products = [
     { id: 6, name: "Broccoli", category: "Vegetables" },
   ];
   
+function searchProducts(products) {
+  const searchInput = document.getElementById('searchInput')
+  const productList = document.getElementById('productList')
+
+    searchInput.addEventListener('input', (e) => {
+      const value = e.target.value.toLowerCase()
+      productList.innerHTML = ''
+
+      const filterProducts = products.filter(product => {
+        if (product.name.toLowerCase().startsWith(value)) {
+          const name = document.createElement('h3')
+          name.textContent = product.name
+          productList.appendChild(name)
+
+          const category = document.createElement('p')
+          category.textContent = product.category
+          productList.appendChild(category)
+
+          return true
+        } 
+        return false
+      })
+
+      if (filterProducts.length === 0) {
+        const noResults = document.createElement('p')
+        noResults.textContent = 'No Results'
+        productList.appendChild(noResults)
+      }
+    })
+}
+
+searchProducts(products)
