@@ -21,10 +21,19 @@ const books = [
   
 document.addEventListener("DOMContentLoaded", () => {
     renderBookList(books)
+    filterBooks(books)
 })
 
-function filterBooks(genre) {
-    
+function filterBooks(books) {
+    const filterBtn = document.getElementById('filter-button')
+    filterBtn.addEventListener('click', () => {
+        const searchGenre = document.getElementById('genre-input').value.toLowerCase()
+        console.log(books)
+        const filteredBooks = books.filter(book => {
+          return book.genre.toLowerCase() === searchGenre
+        })
+        renderBookList(filteredBooks)
+    })
 }
 
 function renderBookList(books) {
@@ -38,5 +47,4 @@ function renderBookList(books) {
     });
 }
 
-  
   
